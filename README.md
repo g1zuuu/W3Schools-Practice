@@ -1,54 +1,58 @@
-# W3Schools-Practice
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags from Start to Style</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
 
+    <!-- Headings -->
+    <h1>Welcome to My HTML Page</h1>
+    <h2>This is a Second-Level Heading</h2>
+    <h3>Third-Level Heading Example</h3>
+    
+    <!-- Paragraphs & Line Breaks -->
+    <p>This is a paragraph with some <strong>bold</strong> and <em>italic</em> text.</p>
+    <p>Here is another paragraph. <br> This sentence appears on a new line.</p>
+    
+    <!-- Horizontal Line -->
+    <hr>
 
-1. Basic Structure
-<html> → The root element of an HTML document. It contains all the content.
-<head> → Contains metadata (information about the document) such as title, links to stylesheets, and character set.
-<title> → Sets the title of the web page, displayed in the browser tab.
-<body> → Contains all the visible content of the webpage, such as text, images, and links.
-  
-2. Text Elements
-<h1> to <h6> → Heading tags, with <h1> being the largest and <h6> the smallest. Used to structure content hierarchically.
-<p> → Defines a paragraph. It automatically creates space before and after the text.
-<br> → Inserts a line break. Unlike <p>, it does not add spacing.
-<hr> → Creates a horizontal line, often used to separate sections.
+    <!-- Text Formatting -->
+    <p><b>Bold text</b> vs <strong>Important text</strong></p>
+    <p><i>Italic text</i> vs <em>Emphasized text</em></p>
+    <p><u>Underlined text</u> and <mark class="highlight">Highlighted text</mark></p>
+    <p>Small text: <small>This is a smaller font</small></p>
+    <p>Deleted text: <del>This was removed</del> | Inserted text: <ins>This was added</ins></p>
+    <p>Subscript: H<sub>2</sub>O | Superscript: x<sup>2</sup></p>
 
-3. Text Formatting
-<b> → Makes text bold but does not add extra importance.
-<strong> → Makes text bold and indicates strong importance.
-<i> → Displays text in italics for styling purposes.
-<em> → Displays text in italics with emphasis (used for semantic meaning).
-<u> → Underlines text (not recommended for links to avoid confusion).
-<mark> → Highlights text with a background color.
-<small> → Reduces the text size, usually for disclaimers or fine print.
-<del> → Displays text with a strikethrough (indicating deletion or correction).
-<ins> → Underlines text to show it has been inserted as an update.
-<sub> → Displays text as a subscript (e.g., chemical formulas: H₂O).
-<sup> → Displays text as a superscript (e.g., mathematical exponents: x²).
+    <!-- Links -->
+    <p>Visit <a href="https://www.w3schools.com" target="_blank">W3Schools</a> for tutorials.</p>
 
-4. Links & Images
-<a href="URL"> → Creates a hyperlink to another page, document, or section.
+    <!-- Images -->
+    <p>Example of an image:</p>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" width="150">
 
-Example attributes:
+    <!-- Inline Styling -->
+    <p style="color: red; font-size: 20px;">This is a red-colored text with inline styling.</p>
 
-href → Specifies the link destination.
-target="_blank" → Opens the link in a new tab.
-<img src="image.jpg" alt="description"> → Displays an image.
-
-Example attributes:
-
-src → Defines the image source (URL or file path).
-alt → Provides alternative text for accessibility and SEO.
-width / height → Controls image dimensions.
-
-5. Styling with CSS
-<style> → Defines internal CSS rules for the document. Placed inside <head>.
-style (attribute) → Allows inline styling within individual elements.
-
-Common properties:
-
-color → Changes text color.
-background-color → Sets the background color.
-font-size → Adjusts text size.
-text-align → Aligns text (left, center, right).
-
+</body>
+</html>
